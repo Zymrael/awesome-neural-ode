@@ -10,6 +10,10 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
 
+*  The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
+
+* Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
+
 ## Optimization
 
 * Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
