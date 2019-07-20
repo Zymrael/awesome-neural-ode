@@ -20,9 +20,18 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
 
+
 ## Theory
 
 * Recurrent Neural Networks in the Eye of Differential Equations: [arXiv19](https://arxiv.org/pdf/1904.12933.pdf)
+
+### Memory, Forgetting and Continual Learning
+
+* Visualizing memorization in RNNs: [distill19](https://distill.pub/2019/memorization-in-rnns/)
+
+* One step back, two steps forward: interference and learning in recurrent neural networks: [arXiv18](https://arxiv.org/abs/1805.09603)
+
+* Reverse engineering recurrent networks for sentiment classification reveals line attractor dynamics: [arXiv19](https://arxiv.org/pdf/1906.10720.pdf)
 
 ## Tools
 
