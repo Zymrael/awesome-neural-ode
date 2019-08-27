@@ -20,7 +20,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
 
-* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15] (https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
+* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15](https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
 
 #### Neural Processes:
 
