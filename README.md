@@ -1,5 +1,5 @@
 # awesome-ode-neural-networks
-A collection of resources regarding the interplay between ODEs, dynamical systems and neural networks
+A collection of resources regarding the interplay between ODEs, dynamical systems, spatio-temporal modeling and deep learning.
 
 
 ## Architectures
@@ -14,13 +14,21 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
 
-*  The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
-
 * Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
 
-* Deep Kalman Filters: [arXiv15[(https://arxiv.org/abs/1511.05121)
+### Stochastic and Generative
 
-* Neural PRoce
+*  The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
+
+* Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
+
+##### Neural Processes:
+
+* Neural Processes[arXiv18](https://arxiv.org/abs/1807.01622)
+
+* Attentive Neural Processes[arXiv19](https://arxiv.org/abs/1901.05761)
+
+* Functional Neural Processes[arXiv19](https://arxiv.org/abs/1906.08324)
 
 ## Optimization
 
