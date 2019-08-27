@@ -4,17 +4,15 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ## Architectures
 
+* AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
+
+* Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
+
 ### Continuous Time:
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
-
-### Temporal Modeling:
-
-* AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
-
-* Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
 
 ### Stochastic and Generative
 
@@ -22,13 +20,15 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
 
-##### Neural Processes:
+* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15] (https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
 
-* Neural Processes[arXiv18](https://arxiv.org/abs/1807.01622)
+#### Neural Processes:
 
-* Attentive Neural Processes[arXiv19](https://arxiv.org/abs/1901.05761)
+* Neural Processes: [arXiv18](https://arxiv.org/abs/1807.01622)
 
-* Functional Neural Processes[arXiv19](https://arxiv.org/abs/1906.08324)
+* Attentive Neural Processes: [arXiv19](https://arxiv.org/abs/1901.05761)
+
+* Functional Neural Processes: [arXiv19](https://arxiv.org/abs/1906.08324)
 
 ## Optimization
 
