@@ -14,6 +14,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
 
+* ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
+
 ### Stochastic and Generative
 
 *  The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
