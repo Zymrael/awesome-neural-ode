@@ -34,9 +34,11 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ## Optimization
 
+* Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
+
 * Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
 
-* Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
+* Port-Hamiltonian Approach to Neural Network Training: [CDC19] (https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
 
 
 ## Theory
