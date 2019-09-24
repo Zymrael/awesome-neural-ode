@@ -38,7 +38,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
 
-* Port-Hamiltonian Approach to Neural Network Training: [CDC19] (https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
+* Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
 
 
 ## Theory
