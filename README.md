@@ -8,21 +8,21 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
 
-### Continuous Time:
+* The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
+
+* Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
+
+* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15](https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
+
+* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303)
+
+#### Parametric ODEs
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
 
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
-
-### Stochastic and Generative
-
-*  The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
-
-* Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
-
-* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15](https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
 
 #### Neural Processes:
 
@@ -39,7 +39,6 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
 
 * Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
-
 
 ## Theory
 
