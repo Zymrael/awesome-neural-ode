@@ -18,15 +18,10 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
 
+* Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
+
 * Neural Jump Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1905.10403)
 
-#### Neural Processes:
-
-* Neural Processes: [arXiv18](https://arxiv.org/abs/1807.01622)
-
-* Attentive Neural Processes: [arXiv19](https://arxiv.org/abs/1901.05761)
-
-* Functional Neural Processes: [arXiv19](https://arxiv.org/abs/1906.08324)
 
 ## RNNs as Dynamical Systems
 
