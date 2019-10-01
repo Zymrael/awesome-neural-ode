@@ -4,19 +4,11 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ## Architectures
 
-* AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
-
 * Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
-
-* The Neural Hawkes Process: A Neurally Self-Modulating Multivariate Point Process: [NeurIPS17](https://arxiv.org/pdf/1612.09328.pdf)
-
-* Deep Kalman Filters: [arXiv15](https://arxiv.org/abs/1511.05121)
-
-* Seven neurons memorizing sequences of alphabetical images via spike-timing dependent plasticity: [Scientific Reports15](https://www.nature.com/articles/srep14149) *Deep Dynamic Boltzmann Machine is introduced*
 
 * Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303)
 
-#### Parametric ODEs
+### Parametric ODEs
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
@@ -26,6 +18,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
 
+* Neural Jump Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1905.10403)
+
 #### Neural Processes:
 
 * Neural Processes: [arXiv18](https://arxiv.org/abs/1807.01622)
@@ -34,25 +28,25 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Functional Neural Processes: [arXiv19](https://arxiv.org/abs/1906.08324)
 
-## Optimization
+## RNNs as Dynamical Systems
 
-* Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
-
-* Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
-
-* Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
-
-## Theory
+* AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
 
 * Recurrent Neural Networks in the Eye of Differential Equations: [arXiv19](https://arxiv.org/pdf/1904.12933.pdf)
-
-### Memory, Forgetting and Continual Learning
 
 * Visualizing memorization in RNNs: [distill19](https://distill.pub/2019/memorization-in-rnns/)
 
 * One step back, two steps forward: interference and learning in recurrent neural networks: [arXiv18](https://arxiv.org/abs/1805.09603)
 
 * Reverse engineering recurrent networks for sentiment classification reveals line attractor dynamics: [arXiv19](https://arxiv.org/pdf/1906.10720.pdf)
+
+## ODE-Based Optimization
+
+* Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
+
+* Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
+
+* Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
 
 ## Tools
 
