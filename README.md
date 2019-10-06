@@ -8,6 +8,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303)
 
+* Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
+
 ### Parametric ODEs
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
