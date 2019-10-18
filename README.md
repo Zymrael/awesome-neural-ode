@@ -55,6 +55,15 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ## Tools
 
+* DiffEqFlux: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
+  Supports stiff and non-stiff neural ordinary differential equations (neural ODEs), neural stochastic differential 
+  equations (neural SDEs), neural delay differential equations (neural DDEs), neural partial differential 
+  equations (neural PDEs), and neural jump stochastic differential equations (neural jump diffusions).
+  All of these can be solved with high order methods with adaptive time-stepping and automatic stiffness
+  detection to switch between methods. [repo](https://github.com/JuliaDiffEq/DiffEqFlux.jl)
+  
+* NeuralNetDiffEq: Implementations of ODE, SDE, and PDE solvers via deep neural networks: [repo](https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl)
+
 * torchdiffeq: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
 
 * torchSODE: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
