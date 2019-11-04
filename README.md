@@ -24,10 +24,13 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
+### SDEs
+
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
 
 * Neural Jump Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1905.10403)
 
+* Towards Robust and Stable Deep Learning Algorithms for Forward Backward Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1910.11623)
 
 ## RNNs as Dynamical Systems
 
