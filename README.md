@@ -14,6 +14,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
+* Graph Neural Ordinary Differential Equations: [arXiv](https://arxiv.org/abs/1911.07532)
+
 * Augmented Neural ODEs: [arXiv19](https://arxiv.org/abs/1904.01681)
 
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
