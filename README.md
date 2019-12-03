@@ -10,7 +10,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
 
-* Beyond Finite Layer Neural Network:Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
+* Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
 
 ### Parametric ODEs
 
