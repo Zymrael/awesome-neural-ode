@@ -77,4 +77,6 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * torchSODE: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
 
+## Blogs 
 
+* Scientific ML Blog (Dr Christopher Rackauckas): [link](http://www.stochasticlifestyle.com/)
