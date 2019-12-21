@@ -12,6 +12,9 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
 
+* Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
+
+
 ### Parametric ODEs
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
@@ -50,7 +53,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * System Identification with Time-Aware Neural Sequence Models: [AAAI20](https://arxiv.org/abs/1911.09431)
 
-## ODE-Based Optimization
+## Optimization
 
 * Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
 
@@ -58,9 +61,15 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
 
+* An Optimal Control Approach to Deep Learning and Applications to Discrete-Weight Neural Networks: [arXiv19](https://arxiv.org/abs/1803.01299)
+
+* Optimizing Millions of Hyperparameters by Implicit Differentiation: [arXiv19](https://arxiv.org/abs/1911.02590)
+
 ## Theory
 
 * Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
+
+* Review: Ordinary Differential Equations For Deep Learning: [arXiv19](https://arxiv.org/abs/1911.00502)
 
 ## Tools
 
