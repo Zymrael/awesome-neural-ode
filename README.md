@@ -55,6 +55,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * System Identification with Time-Aware Neural Sequence Models: [AAAI20](https://arxiv.org/abs/1911.09431)
 
+* Universality and Individuality in recurrent networks: [NeurIPS19](https://arxiv.org/abs/1907.08549)
+
 ## Optimization
 
 * Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
