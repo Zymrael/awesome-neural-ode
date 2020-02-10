@@ -14,6 +14,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
 
+* Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
+
 
 ### Parametric ODEs
 
