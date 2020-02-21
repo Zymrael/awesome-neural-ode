@@ -33,6 +33,10 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
+* How to Train you Neural ODE: [arXiv20](https://arxiv.org/abs/2002.02798)
+
+* Dissecting Neural ODEs: [arXiv20](https://arxiv.org/abs/2002.08071)
+
 ### SDEs
 
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
@@ -72,6 +76,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * An Optimal Control Approach to Deep Learning and Applications to Discrete-Weight Neural Networks: [arXiv19](https://arxiv.org/abs/1803.01299)
 
 * Optimizing Millions of Hyperparameters by Implicit Differentiation: [arXiv19](https://arxiv.org/abs/1911.02590)
+
+* Shadowing Properties of Optimization Algorithms: [NeurIPS19](https://papers.nips.cc/paper/9431-shadowing-properties-of-optimization-algorithms)
 
 ## Theory
 
