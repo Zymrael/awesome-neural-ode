@@ -87,6 +87,10 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Review: Ordinary Differential Equations For Deep Learning: [arXiv19](https://arxiv.org/abs/1911.00502)
 
+## Dynamical systems and neural differential equations for other areas
+
+Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
+
 ## Tools
 
 * DiffEqFlux: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
