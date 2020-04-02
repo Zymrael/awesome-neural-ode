@@ -51,7 +51,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ### Learning PDEs
 
-* PDE-Net: Learning PDEs From Data": [ICML18](https://arxiv.org/abs/1710.09668)
+* PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
 
 ## RNNs as Dynamical Systems
 
