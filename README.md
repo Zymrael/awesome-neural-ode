@@ -37,6 +37,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Dissecting Neural ODEs: [arXiv20](https://arxiv.org/abs/2002.08071)
 
+* Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063)
+
 ### SDEs
 
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
@@ -46,6 +48,10 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Towards Robust and Stable Deep Learning Algorithms for Forward Backward Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1910.11623)
 
 * Scalable Gradients and Variational Inference for Stochastic Differential Equations: [AISTATS20](https://arxiv.org/abs/2001.01328)
+
+### Learning PDEs
+
+* PDE-Net: Learning PDEs From Data": [ICML18](https://arxiv.org/abs/1710.09668)
 
 ## RNNs as Dynamical Systems
 
