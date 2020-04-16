@@ -95,7 +95,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 ## Dynamical systems and neural differential equations for other areas
 
-Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
+* Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
 
 ## Tools
 
