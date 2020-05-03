@@ -16,6 +16,9 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
 
+* Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
+
+* Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
 
 ### Parametric ODEs
 
