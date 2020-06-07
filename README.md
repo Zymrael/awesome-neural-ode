@@ -58,9 +58,13 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Equivariant Flows: sampling configurations for multi-body systems with symmetric energies: [arXiv18](https://arxiv.org/pdf/1910.00753.pdf)
 
-### Learning PDEs
+### PDEs
 
 * PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
+
+## Scientific Machine Learning
+
+* Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
 
 ## RNNs as Dynamical Systems
 
@@ -107,6 +111,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
 
 ## Tools
+
+* torchdyn: PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
 
 * DiffEqFlux: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
   Supports stiff and non-stiff neural ordinary differential equations (neural ODEs), neural stochastic differential 
