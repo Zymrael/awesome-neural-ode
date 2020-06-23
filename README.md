@@ -44,6 +44,8 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * On Second Order Behaviour in Augmented Neural ODEs [arXiv20](https://arxiv.org/abs/2006.07220)
 
+* Neural Controlled Differential Equations for Irregular Time Series: [arXiv20](https://arxiv.org/abs/2005.08926)
+
 ### SDEs
 
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
