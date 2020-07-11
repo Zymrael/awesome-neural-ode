@@ -20,7 +20,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
 
-### Parametric ODEs
+### Neural ODEs
 
 * Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
@@ -31,8 +31,6 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
 
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
-
-* Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
@@ -45,6 +43,12 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * On Second Order Behaviour in Augmented Neural ODEs [arXiv20](https://arxiv.org/abs/2006.07220)
 
 * Neural Controlled Differential Equations for Irregular Time Series: [arXiv20](https://arxiv.org/abs/2005.08926)
+
+#### Training of Neural ODEs
+
+* Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
+
+* Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
 
 ### SDEs
 
