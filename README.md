@@ -8,17 +8,9 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303)
 
-* Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
-
-* Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
-
 * Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
 
 * Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
-
-* Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
-
-* Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
 
 ### Neural ODEs
 
@@ -70,9 +62,15 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
 
-## Scientific Machine Learning
+## Scientific Machine Learning and Physics-Inspired Architectures
 
 * Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
+
+* Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
+
+* Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning: [ICLR19](https://arxiv.org/abs/1907.04490)
+
+* Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
 
 ## RNNs as Dynamical Systems
 
@@ -92,6 +90,20 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Universality and Individuality in recurrent networks: [NeurIPS19](https://arxiv.org/abs/1907.08549)
 
+## Continuous Deep Learning Theory and Perspectives
+
+* Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
+
+* Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
+
+* Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
+
+* Review: Ordinary Differential Equations For Deep Learning: [arXiv19](https://arxiv.org/abs/1911.00502)
+
+## Applications 
+
+* Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
+
 ## Optimization
 
 * Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
@@ -107,16 +119,6 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Optimizing Millions of Hyperparameters by Implicit Differentiation: [arXiv19](https://arxiv.org/abs/1911.02590)
 
 * Shadowing Properties of Optimization Algorithms: [NeurIPS19](https://papers.nips.cc/paper/9431-shadowing-properties-of-optimization-algorithms)
-
-## Theory
-
-* Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
-
-* Review: Ordinary Differential Equations For Deep Learning: [arXiv19](https://arxiv.org/abs/1911.00502)
-
-## Dynamical systems and neural differential equations for other areas
-
-* Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
 
 ## Tools
 
