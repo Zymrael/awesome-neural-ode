@@ -1,8 +1,30 @@
-# awesome-ode-neural-networks
-A collection of resources regarding the interplay between ODEs, dynamical systems, spatio-temporal modeling and deep learning.
+# awesome-neural-ode
+A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control and scientific machine learning.
 
+**NOTE:** Feel free to suggest additional resources via `Issues` or `Pull Requests`.
 
-## Architectures
+## Table of Contents
+1. **Differential Equations -> Deep Learning**
+	2. [General Architectures](#general-architectures)
+	3. [Neural ODEs](#neural-odes)
+		4. [Training of Neural ODEs](#training-of-neural-odes)
+	4. [Neural SDEs](#neural-sdes)
+	5. [Normalizing Flows](#normalizing-flows)
+	6. [Applications](#applications)
+2. **Deep Learning -> Differential Equations (Scientific ML)**
+	5. [Solving Differential Equations](#solving-differential-equations)
+	6. [Learning PDEs](#learning-pdes)
+	7. [Model Discovery](#model-discovery)
+3. **Dynamical System View of Deep Learning**
+	4. [Recurrent Neural Networks](#recurrent-neural-networks)
+	5. [Theory and Perspectives](#theory-and-perspectives)
+	6. [Optimization](#optimization)
+4. [Software and Libraries](#software-and-libraries)
+5. [Websites and Blogs](#websites-and-blogs)
+
+## Differential Equations -> Deep Learning
+
+### General Architectures
 
 * Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
 
@@ -11,6 +33,12 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 * Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
 
 * Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
+
+* Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
+
+* Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning: [ICLR19](https://arxiv.org/abs/1907.04490)
+
+* Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
 
 ### Neural ODEs
 
@@ -42,7 +70,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
 
-### SDEs
+### Neural SDEs
 
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
 
@@ -52,27 +80,31 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Scalable Gradients and Variational Inference for Stochastic Differential Equations: [AISTATS20](https://arxiv.org/abs/2001.01328)
 
-### Continuous Normalizing Flows
+### Normalizing Flows
 
 * FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models: [ICLR19](https://arxiv.org/abs/1810.01367)
 
 * Equivariant Flows: sampling configurations for multi-body systems with symmetric energies: [arXiv18](https://arxiv.org/pdf/1910.00753.pdf)
 
-### PDEs
+### Applications 
+
+* Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
+
+## Deep Learning -> Differential Equations
+
+### Solving Differential Equations
+
+### Learning PDEs
 
 * PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
 
-## Scientific Machine Learning and Physics-Inspired Architectures
+### Model Discovery
 
 * Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
 
-* Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
+## Dynamical System View of Deep Learning
 
-* Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning: [ICLR19](https://arxiv.org/abs/1907.04490)
-
-* Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
-
-## RNNs as Dynamical Systems
+### Recurrent Neural Networks
 
 * A Comprehensive Review of Stability Analysis of Continuous-Time Recurrent Neural Networks: [IEEE Transactions on Neural Networks 2006](https://ieeexplore.ieee.org/abstract/document/6814892)
 
@@ -90,7 +122,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Universality and Individuality in recurrent networks: [NeurIPS19](https://arxiv.org/abs/1907.08549)
 
-## Continuous Deep Learning Theory and Perspectives
+### Theory and Perspectives
 
 * Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
 
@@ -100,11 +132,7 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Review: Ordinary Differential Equations For Deep Learning: [arXiv19](https://arxiv.org/abs/1911.00502)
 
-## Applications 
-
-* Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
-
-## Optimization
+### Optimization
 
 * Gradient and Hamiltonian Dynamics Applied to Learning in Neural Networks: [NIPS96](https://papers.nips.cc/paper/1033-gradient-and-hamiltonian-dynamics-applied-to-learning-in-neural-networks.pdf)
 
@@ -120,23 +148,27 @@ A collection of resources regarding the interplay between ODEs, dynamical system
 
 * Shadowing Properties of Optimization Algorithms: [NeurIPS19](https://papers.nips.cc/paper/9431-shadowing-properties-of-optimization-algorithms)
 
-## Tools
+## Software and Libraries
 
-* torchdyn: PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
+### Python
 
-* DiffEqFlux: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
+* **torchdyn**: PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
+
+* **torchdiffeq**: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
+
+* **torchSODE**: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
+* 
+### Julia
+
+* **DiffEqFlux**: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
   Supports stiff and non-stiff neural ordinary differential equations (neural ODEs), neural stochastic differential 
   equations (neural SDEs), neural delay differential equations (neural DDEs), neural partial differential 
   equations (neural PDEs), and neural jump stochastic differential equations (neural jump diffusions).
   All of these can be solved with high order methods with adaptive time-stepping and automatic stiffness
   detection to switch between methods. [repo](https://github.com/JuliaDiffEq/DiffEqFlux.jl)
   
-* NeuralNetDiffEq: Implementations of ODE, SDE, and PDE solvers via deep neural networks: [repo](https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl)
+* **NeuralNetDiffEq**: Implementations of ODE, SDE, and PDE solvers via deep neural networks: [repo](https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl)
 
-* torchdiffeq: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
+## Websites and Blogs
 
-* torchSODE: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
-
-## Blogs 
-
-* Scientific ML Blog (Dr Christopher Rackauckas): [link](http://www.stochasticlifestyle.com/)
+* Scientific ML Blog (Chris Rackauckas and SciML): [link](http://www.stochasticlifestyle.com/)
