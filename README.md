@@ -11,34 +11,33 @@ A collection of resources regarding the interplay between differential equations
 	
 	** [Neural ODEs](#neural-odes)
 	
-		*** [Training of Neural ODEs](#training-of-neural-odes)
+	*** [Training of Neural ODEs](#training-of-neural-odes)
 		
-	4. [Neural SDEs](#neural-sdes)
+	** [Neural SDEs](#neural-sdes)
 	
-	5. [Normalizing Flows](#normalizing-flows)
+	** [Normalizing Flows](#normalizing-flows)
 	
-	6. [Applications](#applications)
+	** [Applications](#applications)
 	
-2. **Deep Learning -> Differential Equations (Scientific ML)**
+* **Deep Learning -> Differential Equations (Scientific ML)**
 
-	5. [Solving Differential Equations](#solving-differential-equations)
+	** [Solving Differential Equations](#solving-differential-equations)
 	
-	6. [Learning PDEs](#learning-pdes)
+	** [Learning PDEs](#learning-pdes)
 	
-	7. [Model Discovery](#model-discovery)
-	
-	
-3. **Dynamical System View of Deep Learning**
+	** [Model Discovery](#model-discovery)
+		
+* **Dynamical System View of Deep Learning**
 
-	4. [Recurrent Neural Networks](#recurrent-neural-networks)
+	** [Recurrent Neural Networks](#recurrent-neural-networks)
 	
-	5. [Theory and Perspectives](#theory-and-perspectives)
+	** [Theory and Perspectives](#theory-and-perspectives)
 	
-	6. [Optimization](#optimization)
+	** [Optimization](#optimization)
 	
-4. [Software and Libraries](#software-and-libraries)
+* [Software and Libraries](#software-and-libraries)
 
-5. [Websites and Blogs](#websites-and-blogs)
+* [Websites and Blogs](#websites-and-blogs)
 
 ## Differential Equations -> Deep Learning
 
