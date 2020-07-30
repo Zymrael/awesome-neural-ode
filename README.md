@@ -5,13 +5,13 @@ A collection of resources regarding the interplay between differential equations
 
 # Table of Contents
 
-1. **Differential Equations -> Deep Learning**
+* **Differential Equations -> Deep Learning**
 
-	2. [General Architectures](#general-architectures)
+	** [General Architectures](#general-architectures)
 	
-	3. [Neural ODEs](#neural-odes)
+	** [Neural ODEs](#neural-odes)
 	
-		4. [Training of Neural ODEs](#training-of-neural-odes)
+		*** [Training of Neural ODEs](#training-of-neural-odes)
 		
 	4. [Neural SDEs](#neural-sdes)
 	
@@ -29,6 +29,7 @@ A collection of resources regarding the interplay between differential equations
 	
 	
 3. **Dynamical System View of Deep Learning**
+
 	4. [Recurrent Neural Networks](#recurrent-neural-networks)
 	
 	5. [Theory and Perspectives](#theory-and-perspectives)
