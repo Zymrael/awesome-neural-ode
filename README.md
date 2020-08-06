@@ -119,6 +119,12 @@ A collection of resources regarding the interplay between differential equations
 
 * Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
 
+## Deep Control
+
+### Model-Predictive-Control
+
+* Differentiable MPC for End-to-end Planning and Control: [NeurIPS18](https://arxiv.org/abs/1810.13400)
+
 ## Dynamical System View of Deep Learning
 
 ### Recurrent Neural Networks
