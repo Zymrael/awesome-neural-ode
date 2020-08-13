@@ -179,8 +179,10 @@ A collection of resources regarding the interplay between differential equations
 
 * **torchdiffeq**: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
 
+* **torchsde**: Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
+
 * **torchSODE**: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
-* 
+
 ### Julia
 
 * **DiffEqFlux**: Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. 
