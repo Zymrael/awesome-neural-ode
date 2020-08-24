@@ -1,3 +1,4 @@
+
 # awesome-neural-ode
 A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control and scientific machine learning.
 
@@ -5,41 +6,41 @@ A collection of resources regarding the interplay between differential equations
 
 # Table of Contents
 
-* **Differential Equations -> Deep Learning**
+* **Differential Equations in Deep Learning**
 
-	** [General Architectures](#general-architectures)
+	* [General Architectures](#general-architectures)
 	
-	** [Neural ODEs](#neural-odes)
+	* [Neural ODEs](#neural-odes)
 	
-	*** [Training of Neural ODEs](#training-of-neural-odes)
+		* [Training of Neural ODEs](#training-of-neural-odes)
 		
-	** [Neural SDEs](#neural-sdes)
+	* [Neural SDEs](#neural-sdes)
 	
-	** [Normalizing Flows](#normalizing-flows)
+	* [Normalizing Flows](#normalizing-flows)
 	
-	** [Applications](#applications)
+	* [Applications](#applications)
 	
-* **Deep Learning -> Differential Equations (Scientific ML)**
+* **Deep Learning Methods for Differential Equations (Scientific ML)**
 
-	** [Solving Differential Equations](#solving-differential-equations)
+	* [Solving Differential Equations](#solving-differential-equations)
 	
-	** [Learning PDEs](#learning-pdes)
+	* [Learning PDEs](#learning-pdes)
 	
-	** [Model Discovery](#model-discovery)
+	* [Model Discovery](#model-discovery)
 		
 * **Dynamical System View of Deep Learning**
 
-	** [Recurrent Neural Networks](#recurrent-neural-networks)
+	* [Recurrent Neural Networks](#recurrent-neural-networks)
 	
-	** [Theory and Perspectives](#theory-and-perspectives)
+	* [Theory and Perspectives](#theory-and-perspectives)
 	
-	** [Optimization](#optimization)
+	* [Optimization](#optimization)
 	
 * [Software and Libraries](#software-and-libraries)
 
 * [Websites and Blogs](#websites-and-blogs)
 
-## Differential Equations -> Deep Learning
+## Differential Equations in Deep Learning
 
 ### General Architectures
 
@@ -107,7 +108,7 @@ A collection of resources regarding the interplay between differential equations
 
 * Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
 
-## Deep Learning -> Differential Equations
+## Deep Learning Methods for Differential Equations
 
 ### Solving Differential Equations
 
