@@ -150,6 +150,8 @@ A collection of resources regarding the interplay between differential equations
 
 ### Theory and Perspectives
 
+* A Proposal on Machine Learning via Dynamical Systems: [Communications in Mathematics and Statistics 2017](https://link.springer.com/content/pdf/10.1007/s40304-017-0103-z.pdf)
+
 * Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
 
 * Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
