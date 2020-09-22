@@ -16,6 +16,8 @@ A collection of resources regarding the interplay between differential equations
 		
 	* [Neural SDEs](#neural-sdes)
 	
+	* [Neural CDEs](#neural-cdes)
+	
 	* [Normalizing Flows](#normalizing-flows)
 	
 	* [Applications](#applications)
@@ -80,8 +82,6 @@ A collection of resources regarding the interplay between differential equations
 
 * On Second Order Behaviour in Augmented Neural ODEs [arXiv20](https://arxiv.org/abs/2006.07220)
 
-* Neural Controlled Differential Equations for Irregular Time Series: [arXiv20](https://arxiv.org/abs/2005.08926)
-
 #### Training of Neural ODEs
 
 * Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
@@ -97,6 +97,12 @@ A collection of resources regarding the interplay between differential equations
 * Towards Robust and Stable Deep Learning Algorithms for Forward Backward Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1910.11623)
 
 * Scalable Gradients and Variational Inference for Stochastic Differential Equations: [AISTATS20](https://arxiv.org/abs/2001.01328)
+
+### Neural CDEs
+
+* Neural Controlled Differential Equations for Irregular Time Series: [arXiv20](https://arxiv.org/abs/2005.08926)
+
+* Neural CDEs for Long Time Series via the Log-ODE Method: [arXiv20](https://arxiv.org/abs/2009.08295)
 
 ### Normalizing Flows
 
