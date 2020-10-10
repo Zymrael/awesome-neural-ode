@@ -14,6 +14,8 @@ A collection of resources regarding the interplay between differential equations
 	
 		* [Training of Neural ODEs](#training-of-neural-odes)
 		
+		* [Control with Neural ODEs](#control-with-neural-odes)
+		
 	* [Neural SDEs](#neural-sdes)
 	
 	* [Neural CDEs](#neural-cdes)
@@ -62,21 +64,21 @@ A collection of resources regarding the interplay between differential equations
 
 ### Neural ODEs
 
-* Neural Ordinary Differential Equations: [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
+* Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
+
+* Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071)
 
 * Graph Neural Ordinary Differential Equations: [arXiv19](https://arxiv.org/abs/1911.07532)
 
 * Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681)
 
-* Latent ODEs for Irregularly-Sampled Time Series: [arXiv19](https://arxiv.org/abs/1907.03907)
+* Latent ODEs for Irregularly-Sampled Time Series: [NeurIPS19](https://arxiv.org/abs/1907.03907)
 
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
-* How to Train you Neural ODE: [arXiv20](https://arxiv.org/abs/2002.02798)
-
-* Dissecting Neural ODEs: [arXiv20](https://arxiv.org/abs/2002.08071)
+* How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
 
 * Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063)
 
@@ -87,6 +89,12 @@ A collection of resources regarding the interplay between differential equations
 * Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
 
 * Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
+
+#### Control with Neural ODEs
+
+* Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs: [NeurIPS20](https://arxiv.org/pdf/2006.16210.pdf)
+
+> We present an elegant solution for modeling continuous-time dynamics, in a novel model-based reinforcement learning (RL) framework for semi-Markov decision processes (SMDPs), using neural ordinary differential equations (ODEs).
 
 ### Neural SDEs
 
