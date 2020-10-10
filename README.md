@@ -14,6 +14,8 @@ A collection of resources regarding the interplay between differential equations
 	
 		* [Training of Neural ODEs](#training-of-neural-odes)
 		
+		* [Speeding up continuous models](#speeding-up-continuous-models)
+		
 		* [Control with Neural ODEs](#control-with-neural-odes)
 		
 	* [Neural SDEs](#neural-sdes)
@@ -78,8 +80,6 @@ A collection of resources regarding the interplay between differential equations
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
-* How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
-
 * Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063)
 
 * On Second Order Behaviour in Augmented Neural ODEs [arXiv20](https://arxiv.org/abs/2006.07220)
@@ -89,6 +89,12 @@ A collection of resources regarding the interplay between differential equations
 * Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
 
 * Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
+
+#### Speeding up continuous models
+
+* How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
+
+* Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018)
 
 #### Control with Neural ODEs
 
