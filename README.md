@@ -138,6 +138,10 @@ A collection of resources regarding the interplay between differential equations
 
 * Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
 
+* Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs: [NeurIPS20](https://arxiv.org/pdf/2006.16210.pdf)
+
+> In this paper, we take a model-based approach to continuous-time RL, modeling the dynamics via neural ordinary differential equations (ODEs). Not only is this more sample efficient than model-free approaches, but it allows us to efficiently adapt policies learned using one schedule of interactions with the environment for another.
+
 ## Deep Learning Methods for Differential Equations
 
 ### Solving Differential Equations
