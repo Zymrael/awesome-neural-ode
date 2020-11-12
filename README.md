@@ -134,6 +134,10 @@ A collection of resources regarding the interplay between differential equations
 
 * Equivariant Flows: sampling configurations for multi-body systems with symmetric energies: [arXiv18](https://arxiv.org/pdf/1910.00753.pdf)
 
+* Flows for simultaneous manifold learning and density estimation: [NeurIPS20](https://arxiv.org/abs/2003.13913)
+
+> We introduce manifold-learning flows (M-flows), a new class of generative models that simultaneously learn the data manifold as well as a tractable probability density on that manifold. We argue why such models should not be trained by maximum likelihood alone and present a new training algorithm that separates manifold and density updates.
+
 ### Applications 
 
 * Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
