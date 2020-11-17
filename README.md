@@ -122,7 +122,7 @@ A collection of resources regarding the interplay between differential equations
 
 ### Neural CDEs
 
-* Neural Controlled Differential Equations for Irregular Time Series: [NeurIPS20](https://arxiv.org/abs/2005.08926)
+* Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
 
 * Neural CDEs for Long Time Series via the Log-ODE Method: [arXiv20](https://arxiv.org/abs/2009.08295)
 
