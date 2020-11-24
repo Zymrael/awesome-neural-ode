@@ -76,11 +76,13 @@ A collection of resources regarding the interplay between differential equations
 
 > In this work, we “open the box” and offer a system–theoretic perspective with the aim of clarifying the influence of several design choices on the underlying dynamics. We formulate and solve the infinite–dimensional problem linked to the true deep limit formulation of Neural ODE. We provide numerical approximations to the infinite–dimensional problem, leading to novel model variants, such as Galerkin and piecewise–constant Neural ODEs. Augmentation is developed beyond existing approaches to include input–layer and higher–order augmentation strategies. Finally, the novel paradigms of data–control (vector field conditioning) and depth–adaptation are introduced.
 
+* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681)
+
+> We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
+
 * Graph Neural Ordinary Differential Equations: [arXiv19](https://arxiv.org/abs/1911.07532)
 
 > We introduce the framework of continuous–depth graph neural networks (GNNs). Neural graph ordinary differential equations (Neural GDEs) are formalized as the counterpart to GNNs where the input–output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. We further introduce general Hybrid Neural GDE models as a hybrid dynamical systems. 
-
-* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681)
 
 * Latent ODEs for Irregularly-Sampled Time Series: [NeurIPS19](https://arxiv.org/abs/1907.03907)
 
@@ -90,7 +92,7 @@ A collection of resources regarding the interplay between differential equations
 
 * Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063)
 
-* On Second Order Behaviour in Augmented Neural ODEs [arXiv20](https://arxiv.org/abs/2006.07220)
+* On Second Order Behaviour in Augmented Neural ODEs [NeurIPS20](https://arxiv.org/abs/2006.07220)
 
 #### Training of Neural ODEs
 
@@ -103,6 +105,10 @@ A collection of resources regarding the interplay between differential equations
 * How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
 
 * Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018)
+
+* Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf)
+
+> Neural differential equations may be trained by backpropagating gradients via the adjoint method. Here, we demonstrate that the particular structure of the adjoint equations makes the usual choices of norm (such as L2) unnecessarily stringent. By replacing it with a more appropriate (semi)norm, fewer steps are unnecessarily rejected and the backpropagation is made faster.
 
 #### Control with Neural ODEs
 
