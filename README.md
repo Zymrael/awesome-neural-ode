@@ -54,9 +54,14 @@ A collection of resources regarding the interplay between differential equations
 
 > Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. We propose a GRU-based model called GRU-D, in which a decay mechanism is designed for the input variables and the hidden states to capture the aforementioned properties. We introduce decay rates in the model to control the decay mechanism by considering the following important factors.
 
-* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303)
+* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npode)
+
+> However, for many complex systems it is practically impossible to determine the equations or
+interactions governing the underlying dynamics. In these settings, parametric ODE model cannot be formulated. Here, we overcome this issue by introducing a novel paradigm of nonparametric ODE modeling that can learn the underlying dynamics of arbitrary continuous-time systems without prior knowledge. We propose to learn non-linear, unknown differential functions from state observations using Gaussian process vector fields within the exact ODE formalism.
 
 * Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
+
+> We present a new approach to modeling sequential data: the deep equilibrium model (DEQ). Motivated by an observation that the hidden layers of many existing deep sequence models converge towards some fixed point, we propose the DEQ approach that directly finds these equilibrium points via root-finding.
 
 * Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
 
@@ -65,6 +70,10 @@ A collection of resources regarding the interplay between differential equations
 * Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning: [ICLR19](https://arxiv.org/abs/1907.04490)
 
 * Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
+
+* Simplifying Hamiltonian and Lagrangian Neural Networks via Explicit Constraints: [NeurIPS20](https://arxiv.org/abs/2010.13581), [code](https://github.com/mfinzi/constrained-hamiltonian-neural-networks)
+
+> Reasoning about the physical world requires models that are endowed with the right inductive biases to learn the underlying dynamics. Recent works improve generalization for predicting trajectories by learning the Hamiltonian or Lagrangian of a system rather than the differential equations directly. While these methods encode the constraints of the systems using generalized coordinates, we show that embedding the system into Cartesian coordinates and enforcing the constraints explicitly with Lagrange multipliers dramatically simplifies the learning problem.
 
 ### Neural ODEs
 
