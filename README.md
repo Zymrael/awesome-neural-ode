@@ -54,7 +54,7 @@ A collection of resources regarding the interplay between differential equations
 
 > Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. We propose a GRU-based model called GRU-D, in which a decay mechanism is designed for the input variables and the hidden states to capture the aforementioned properties. We introduce decay rates in the model to control the decay mechanism by considering the following important factors.
 
-* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npode)
+* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npde/)
 
 > However, for many complex systems it is practically impossible to determine the equations or
 interactions governing the underlying dynamics. In these settings, parametric ODE model cannot be formulated. Here, we overcome this issue by introducing a novel paradigm of nonparametric ODE modeling that can learn the underlying dynamics of arbitrary continuous-time systems without prior knowledge. We propose to learn non-linear, unknown differential functions from state observations using Gaussian process vector fields within the exact ODE formalism.
