@@ -2,7 +2,7 @@
 # awesome-neural-ode
 A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control and scientific machine learning.
 
-**NOTE:** Feel free to suggest additional resources via `Issues` or `Pull Requests`.
+**NOTE:** Feel free to suggest additions via `Issues` or `Pull Requests`.
 
 # Table of Contents
 
@@ -118,6 +118,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 * Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf)
 
 > Neural differential equations may be trained by backpropagating gradients via the adjoint method. Here, we demonstrate that the particular structure of the adjoint equations makes the usual choices of norm (such as L2) unnecessarily stringent. By replacing it with a more appropriate (semi)norm, fewer steps are unnecessarily rejected and the backpropagation is made faster.
+
+* Interpolation Technique to Speed Up Gradients Propagation in Neural ODEs: [NeurIPS20](https://papers.nips.cc/paper/2020/file/c24c65259d90ed4a19ab37b6fd6fe716-Paper.pdf)
+
+> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with the reverse dynamic method (known in the literature as “adjoint method”) to train neural ODEs on classification, density estimation, and inference approximation tasks.
 
 #### Control with Neural ODEs
 
