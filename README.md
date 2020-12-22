@@ -159,6 +159,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics [arXiv20](https://arxiv.org/pdf/2002.04461.pdf)
 
+* Convex Potential Flows: Universal Probability Distributions with Optimal Transport and Convex Optimization: [arXiv20](https://arxiv.org/pdf/2012.05942.pdf)
+
+> CP-Flows are the gradient map of a strongly convex neural potential function. The convexity implies invertibility and allows us to resort to convex optimization to solve the convex conjugate for efficient inversion.
+
 ### Applications 
 
 * Learning Dynamics of Attention: Human Prior for Interpretable Machine Reasoning: [NeurIPS19](https://arxiv.org/abs/1905.11666)
