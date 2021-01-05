@@ -237,6 +237,8 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * **torchsde**: Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
 
+* **torchcde**: GPU-capable solvers for controlled differential equations (CDEs): [repo](https://github.com/patrick-kidger/torchcde)
+
 * **torchSODE**: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
 
 ### Julia
