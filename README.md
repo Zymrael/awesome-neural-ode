@@ -113,6 +113,8 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
 
+* Learning Differential Equations that are Easy to Solve: [NeurIPS20](https://arxiv.org/abs/2007.04504)
+
 * Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018)
 
 * Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf)
