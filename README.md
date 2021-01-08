@@ -123,11 +123,6 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with the reverse dynamic method (known in the literature as “adjoint method”) to train neural ODEs on classification, density estimation, and inference approximation tasks.
 
-* Learning Differential Equations that are Easy to Solve: [NeurIPS20](https://arxiv.org/pdf/2007.04504.pdf)
-
-> Differential equations parameterized by neural networks become expensive to solve numerically as training progresses. We propose a remedy that encourages learned
-dynamics to be easier to solve. Specifically, we introduce a differentiable surrogate for the time cost of standard numerical solvers, using higher-order derivatives of solution trajectories. These derivatives are efficient to compute with Taylor-mode automatic differentiation.
-
 #### Control with Neural ODEs
 
 * Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs: [NeurIPS20](https://arxiv.org/pdf/2006.16210.pdf)
