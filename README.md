@@ -83,7 +83,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071)
 
-> In this work, we “open the box” and offer a system–theoretic perspective with the aim of clarifying the influence of several design choices on the underlying dynamics. We formulate and solve the infinite–dimensional problem linked to the true deep limit formulation of Neural ODE. We provide numerical approximations to the infinite–dimensional problem, leading to novel model variants, such as Galerkin and piecewise–constant Neural ODEs. Augmentation is developed beyond existing approaches to include input–layer and higher–order augmentation strategies. Finally, the novel paradigms of data–control (vector field conditioning) and depth–adaptation are introduced.
+> Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
 * Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681)
 
