@@ -131,6 +131,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > In this paper, we take a model-based approach to continuous-time RL, modeling the dynamics via neural ordinary differential equations (ODEs). Not only is this more sample efficient than model-free approaches, but it allows us to efficiently adapt policies learned using one schedule of interactions with the environment for another.
 
+* Optimal Energy Shaping via Neural Approximators: [arXiv20](https://arxiv.org/abs/2101.05537)
+
+> We introduce optimal energy shaping as an enhancement of classical passivity-based control methods. A promising feature of passivity theory, alongside stability, has traditionally been claimed to be intuitive performance tuning along the execution of a given task. However, a systematic approach to adjust performance within a passive control framework has yet to be developed, as each method relies on few and problem-specific practical insights. Here, we cast the classic energy-shaping control design process in an optimal control framework; once a task-dependent performance metric is defined, an optimal solution is systematically obtained through an iterative procedure relying on neural networks and gradient-based optimization.
+
 ### Neural SDEs
 
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
