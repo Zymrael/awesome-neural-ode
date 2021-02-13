@@ -109,6 +109,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
 
+* MALI: A memory efficient and reverse accurate integrator for Neural ODEs: [ICLR21](https://openreview.net/pdf?id=blfSjHeFM_e)
+
+> Existing implementations of the adjoint method suffer from inaccuracy in reverse-time trajectory, while the naive method and the adaptive checkpoint adjoint method (ACA) have a memory cost that grows with integration time. In this project, based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation).
+
 #### Speeding up continuous models
 
 * How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
