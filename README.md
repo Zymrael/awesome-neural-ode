@@ -149,6 +149,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Scalable Gradients and Variational Inference for Stochastic Differential Equations: [AISTATS20](https://arxiv.org/abs/2001.01328)
 
+* Score-Based Generative Modeling through Stochastic Differential Equations (oral): [ICLR20](https://openreview.net/pdf?id=PxTIG12RRHS)
+
+> We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise.
+
 ### Neural CDEs
 
 * Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
