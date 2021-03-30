@@ -6,11 +6,11 @@ A collection of resources regarding the interplay between differential equations
 
 The repo further introduces a (rough) categorization by assigning topic labels to each work. These are not supposed to be comprehensive or precise, and should only provide a rough idea of the contents.
 
-![IC](https://img.shields.io/badge/image-classification-blue.svg?logo=Google%20Classroom)
-![TS](https://img.shields.io/badge/time-series-purple.svg?logo=Altium%20Designer)
-![DS](https://img.shields.io/badge/dynamical-systems-red.svg?logo=Graphcool)
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
 ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
-![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
 
 # Table of Contents
 
