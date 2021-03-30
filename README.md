@@ -4,10 +4,13 @@ A collection of resources regarding the interplay between differential equations
 
 **NOTE:** Feel free to suggest additions via `Issues` or `Pull Requests`.
 
-This repo further introduces a (rough) categorization by assigning topic labels to each work
+The repo further introduces a (rough) categorization by assigning topic labels to each work. These are not supposed to be comprehensive or precise, and should only provide a rough idea of the contents.
 
 ![IC](https://img.shields.io/badge/image-classification-blue.svg?logo=Google%20Classroom)
 ![TS](https://img.shields.io/badge/time-series-purple.svg?logo=Altium%20Designer)
+![DS](https://img.shields.io/badge/dynamical-systems-red.svg?logo=Graphcool)
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
 # Table of Contents
 
@@ -90,11 +93,11 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 ### Neural ODEs
 
-* Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
+* Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf) ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
 > We introduce a new family of deep neural network models. Instead of specifying a discrete sequence of hidden layers, we parameterize the derivative of the hidden state using a neural network. We also construct continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions
 
-* Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071)
+* Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071) ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
@@ -112,17 +115,17 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
-* Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063)
+* Stable Neural Flows: [arXiv20](https://arxiv.org/abs/2003.08063) ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 * On Second Order Behaviour in Augmented Neural ODEs [NeurIPS20](https://arxiv.org/abs/2006.07220)
 
 #### Training of Neural ODEs
 
-* Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038)
+* Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
-* Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493)
+* Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
-* MALI: A memory efficient and reverse accurate integrator for Neural ODEs: [ICLR21](https://openreview.net/pdf?id=blfSjHeFM_e)
+* MALI: A memory efficient and reverse accurate integrator for Neural ODEs: [ICLR21](https://openreview.net/pdf?id=blfSjHeFM_e) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
 > Existing implementations of the adjoint method suffer from inaccuracy in reverse-time trajectory, while the naive method and the adaptive checkpoint adjoint method (ACA) have a memory cost that grows with integration time. In this project, based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation).
 
@@ -130,15 +133,15 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
 
-* Learning Differential Equations that are Easy to Solve: [NeurIPS20](https://arxiv.org/abs/2007.04504)
+* Learning Differential Equations that are Easy to Solve: [NeurIPS20](https://arxiv.org/abs/2007.04504) ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
-* Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018)
+* Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
-* Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf)
+* Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
 > Neural differential equations may be trained by backpropagating gradients via the adjoint method. Here, we demonstrate that the particular structure of the adjoint equations makes the usual choices of norm (such as L2) unnecessarily stringent. By replacing it with a more appropriate (semi)norm, fewer steps are unnecessarily rejected and the backpropagation is made faster.
 
-* Interpolation Technique to Speed Up Gradients Propagation in Neural ODEs: [NeurIPS20](https://papers.nips.cc/paper/2020/file/c24c65259d90ed4a19ab37b6fd6fe716-Paper.pdf)
+* Interpolation Technique to Speed Up Gradients Propagation in Neural ODEs: [NeurIPS20](https://papers.nips.cc/paper/2020/file/c24c65259d90ed4a19ab37b6fd6fe716-Paper.pdf) ![NM](https://img.shields.io/badge/numerical-methods-orange.svg?logo=CodeFactor)
 
 > We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with the reverse dynamic method (known in the literature as “adjoint method”) to train neural ODEs on classification, density estimation, and inference approximation tasks.
 
