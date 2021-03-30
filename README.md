@@ -100,7 +100,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 > We propose Lagrangian Neural Networks (LNNs), which can parameterize arbitrary Lagrangians using neural networks. In contrast to models that learn Hamiltonians, LNNs do not require canonical coordinates, and thus perform well in situations where canonical momenta are unknown or difficult to compute.
 
 * Simplifying Hamiltonian and Lagrangian Neural Networks via Explicit Constraints: [NeurIPS20](https://arxiv.org/abs/2010.13581), [code](https://github.com/mfinzi/constrained-hamiltonian-neural-networks)
-* 
+
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
 
 > Reasoning about the physical world requires models that are endowed with the right inductive biases to learn the underlying dynamics. Recent works improve generalization for predicting trajectories by learning the Hamiltonian or Lagrangian of a system rather than the differential equations directly. While these methods encode the constraints of the systems using generalized coordinates, we show that embedding the system into Cartesian coordinates and enforcing the constraints explicitly with Lagrange multipliers dramatically simplifies the learning problem.
@@ -119,7 +119,9 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
-* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681) 
+
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
 
