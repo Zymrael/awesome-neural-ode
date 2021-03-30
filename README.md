@@ -7,6 +7,7 @@ A collection of resources regarding the interplay between differential equations
 This repo further introduces a (rough) categorization by assigning topic labels to each work
 
 ![IC](https://img.shields.io/badge/image-classification-blue.svg?logo=Google%20Classroom)
+![TS](https://img.shields.io/badge/time-series-purple.svg?logo=Altium%20Designer)
 
 # Table of Contents
 
