@@ -65,11 +65,19 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
 
+> We address the efficiency issue for the construction of a deep graph neural network (GNN). The approach exploits the idea of representing each input graph as a fixed point of a dynamical system (implemented through a recurrent neural network), and leverages a deep architectural organization of the recurrent units. Efficiency is gained by many aspects, including the use of small and very sparse networks, where the weights of the recurrent units are left untrained under the stability condition introduced in this work.
+
 * Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
+
+> In this paper, we draw inspiration from Hamiltonian mechanics to train models that learn and respect exact conservation laws in an unsupervised manner.
 
 * Deep Lagrangian Networks: Using Physics as Model Prior for Deep Learning: [ICLR19](https://arxiv.org/abs/1907.04490)
 
+> We propose Deep Lagrangian Networks (DeLaN) as a deep network structure upon which Lagrangian Mechanics have been imposed. DeLaN can learn the equations of motion of a mechanical system (i.e., system dynamics) with a deep network efficiently while ensuring physical plausibility. The resulting DeLaN network performs very well at robot tracking control.
+
 * Lagrangian Neural Networks: [ICLR20 DeepDiffEq](https://arxiv.org/abs/2003.04630)
+
+> We propose Lagrangian Neural Networks (LNNs), which can parameterize arbitrary Lagrangians using neural networks. In contrast to models that learn Hamiltonians, LNNs do not require canonical coordinates, and thus perform well in situations where canonical momenta are unknown or difficult to compute.
 
 * Simplifying Hamiltonian and Lagrangian Neural Networks via Explicit Constraints: [NeurIPS20](https://arxiv.org/abs/2010.13581), [code](https://github.com/mfinzi/constrained-hamiltonian-neural-networks)
 
