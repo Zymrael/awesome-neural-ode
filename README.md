@@ -109,15 +109,17 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf) 
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 > We introduce a new family of deep neural network models. Instead of specifying a discrete sequence of hidden layers, we parameterize the derivative of the hidden state using a neural network. We also construct continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions
 
 * Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071) 
 
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
-* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681)
+* Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
 
@@ -143,9 +145,15 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Accelerating Neural ODEs with Spectral Elements: [arXiv19](https://arxiv.org/abs/1906.07038) 
 
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
+
 * Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE: [ICML20](https://arxiv.org/abs/2006.02493) 
 
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+
 * MALI: A memory efficient and reverse accurate integrator for Neural ODEs: [ICLR21](https://openreview.net/pdf?id=blfSjHeFM_e) 
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > Existing implementations of the adjoint method suffer from inaccuracy in reverse-time trajectory, while the naive method and the adaptive checkpoint adjoint method (ACA) have a memory cost that grows with integration time. In this project, based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation).
 
@@ -153,15 +161,25 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * How to Train you Neural ODE: [ICML20](https://arxiv.org/abs/2002.02798)
 
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+
 * Learning Differential Equations that are Easy to Solve: [NeurIPS20](https://arxiv.org/abs/2007.04504) 
+
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
 
 * Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018) 
 
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
+
 * Hey, that's not an ODE": Faster ODE Adjoints with 12 Lines of Code: [arXiV20](https://arxiv.org/pdf/2009.09457.pdf) 
+
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
 
 > Neural differential equations may be trained by backpropagating gradients via the adjoint method. Here, we demonstrate that the particular structure of the adjoint equations makes the usual choices of norm (such as L2) unnecessarily stringent. By replacing it with a more appropriate (semi)norm, fewer steps are unnecessarily rejected and the backpropagation is made faster.
 
 * Interpolation Technique to Speed Up Gradients Propagation in Neural ODEs: [NeurIPS20](https://papers.nips.cc/paper/2020/file/c24c65259d90ed4a19ab37b6fd6fe716-Paper.pdf)
+
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with the reverse dynamic method (known in the literature as “adjoint method”) to train neural ODEs on classification, density estimation, and inference approximation tasks.
 
@@ -183,9 +201,13 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Towards Robust and Stable Deep Learning Algorithms for Forward Backward Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1910.11623)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * Scalable Gradients and Variational Inference for Stochastic Differential Equations: [AISTATS20](https://arxiv.org/abs/2001.01328)
 
 * Score-Based Generative Modeling through Stochastic Differential Equations (oral): [ICLR20](https://openreview.net/pdf?id=PxTIG12RRHS)
+
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise.
 
@@ -193,23 +215,33 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * Neural CDEs for Long Time Series via the Log-ODE Method: [arXiv20](https://arxiv.org/abs/2009.08295)
 
 ### Normalizing Flows
 
 * Monge-Ampère Flow for Generative Modeling: [arXiv18](https://arxiv.org/pdf/1809.10188.pdf)
 
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+
 * FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models: [ICLR19](https://arxiv.org/abs/1810.01367)
+
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 * Equivariant Flows: sampling configurations for multi-body systems with symmetric energies: [arXiv18](https://arxiv.org/pdf/1910.00753.pdf)
 
 * Flows for simultaneous manifold learning and density estimation: [NeurIPS20](https://arxiv.org/abs/2003.13913)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 > We introduce manifold-learning flows (M-flows), a new class of generative models that simultaneously learn the data manifold as well as a tractable probability density on that manifold. We argue why such models should not be trained by maximum likelihood alone and present a new training algorithm that separates manifold and density updates.
 
 * TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics [arXiv20](https://arxiv.org/pdf/2002.04461.pdf)
 
 * Convex Potential Flows: Universal Probability Distributions with Optimal Transport and Convex Optimization: [arXiv20](https://arxiv.org/pdf/2012.05942.pdf)
+
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > CP-Flows are the gradient map of a strongly convex neural potential function. The convexity implies invertibility and allows us to resort to convex optimization to solve the convex conjugate for efficient inversion.
 
@@ -229,15 +261,21 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
 
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
+
 ## Dynamical System View of Deep Learning
 
 ### Recurrent Neural Networks
 
 * A Comprehensive Review of Stability Analysis of Continuous-Time Recurrent Neural Networks: [IEEE Transactions on Neural Networks 2006](https://ieeexplore.ieee.org/abstract/document/6814892)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * AntysimmetricRNN: A Dynamical System View on Recurrent Neural Networks: [ICLR19](https://openreview.net/pdf?id=ryxepo0cFX)
 
 * Recurrent Neural Networks in the Eye of Differential Equations: [arXiv19](https://arxiv.org/pdf/1904.12933.pdf)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 * Visualizing memorization in RNNs: [distill19](https://distill.pub/2019/memorization-in-rnns/)
 
@@ -253,9 +291,15 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * A Proposal on Machine Learning via Dynamical Systems: [Communications in Mathematics and Statistics 2017](https://link.springer.com/content/pdf/10.1007/s40304-017-0103-z.pdf)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective: [arXiv19](https://arxiv.org/abs/1908.10920)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * Stable Architectures for Deep Neural Networks: [IP17](https://arxiv.org/pdf/1705.03341.pdf)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 * Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations: [ICML18](https://arxiv.org/abs/1710.10121)
 
@@ -269,7 +313,11 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Hamiltonian Descent Methods: [arXiv18](https://arxiv.org/pdf/1809.05042.pdf)
 
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+
 * Port-Hamiltonian Approach to Neural Network Training: [CDC19](https://arxiv.org/abs/1909.02702), [code](https://github.com/Zymrael/PortHamiltonianNN)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
 
 * An Optimal Control Approach to Deep Learning and Applications to Discrete-Weight Neural Networks: [arXiv19](https://arxiv.org/abs/1803.01299)
 
