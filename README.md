@@ -4,6 +4,10 @@ A collection of resources regarding the interplay between differential equations
 
 **NOTE:** Feel free to suggest additions via `Issues` or `Pull Requests`.
 
+This repo further introduces a (rough) categorization by assigning topic labels to each work
+
+[![IC](https://img.shields.io/badge/image-classification-blue.svg?logo=Google%20Classroom)]
+
 # Table of Contents
 
 * **Differential Equations in Deep Learning**
