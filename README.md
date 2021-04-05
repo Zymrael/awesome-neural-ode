@@ -60,6 +60,8 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 
 * Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
 
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
 > Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. We propose a GRU-based model called GRU-D, in which a decay mechanism is designed for the input variables and the hidden states to capture the aforementioned properties. We introduce decay rates in the model to control the decay mechanism by considering the following important factors.
 
 * Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npde/)
@@ -71,7 +73,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
 
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
+![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 > We present a new approach to modeling sequential data: the deep equilibrium model (DEQ). Motivated by an observation that the hidden layers of many existing deep sequence models converge towards some fixed point, we propose the DEQ approach that directly finds these equilibrium points via root-finding.
 
@@ -109,13 +111,13 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf) 
 
-![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 > We introduce a new family of deep neural network models. Instead of specifying a discrete sequence of hidden layers, we parameterize the derivative of the hidden state using a neural network. We also construct continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions
 
 * Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071) 
 
-![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
@@ -127,13 +129,17 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Graph Neural Ordinary Differential Equations: [arXiv19](https://arxiv.org/abs/1911.07532)
 
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
+![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 > We introduce the framework of continuous–depth graph neural networks (GNNs). Neural graph ordinary differential equations (Neural GDEs) are formalized as the counterpart to GNNs where the input–output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. We further introduce general Hybrid Neural GDE models as a hybrid dynamical systems. 
 
 * Latent ODEs for Irregularly-Sampled Time Series: [NeurIPS19](https://arxiv.org/abs/1907.03907)
 
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
 * ODE2VAE: Deep generative second order ODEs with Bayesian neural networks: [NeurIPS19](https://arxiv.org/pdf/1905.10994.pdf)
+
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 * Symplectic ODE-Net: Learning Hamiltonian Dynamics with Control: [arXiv19](https://arxiv.org/abs/1909.12077)
 
@@ -142,6 +148,8 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
 
 * On Second Order Behaviour in Augmented Neural ODEs [NeurIPS20](https://arxiv.org/abs/2006.07220)
+
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 #### Training of Neural ODEs
 
