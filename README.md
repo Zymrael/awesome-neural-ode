@@ -41,7 +41,7 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 	* [Learning PDEs](#learning-pdes)
 	
 	* [Model Discovery](#model-discovery)
-		
+	
 * **Dynamical System View of Deep Learning**
 
 	* [Recurrent Neural Networks](#recurrent-neural-networks)
@@ -340,21 +340,18 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 ### Python
 
 * **torchdyn**: PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
-
 * **torchdiffeq**: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
-
 * **torchsde**: Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
-
 * **torchcde**: GPU-capable solvers for controlled differential equations (CDEs): [repo](https://github.com/patrick-kidger/torchcde)
-
 * **torchSODE**: PyTorch Block-Diagonal ODE solver: [repo](https://github.com/Zymrael/torchSODE)
+* **neurodiffeq**: A light-weight & flexible library for solving differential equations using neural networks based on PyTorch: [repo](https://github.com/NeuroDiffGym/neurodiffeq)
 
 ### Julia
 
 * **DiffEqFlux**: [repo](https://github.com/JuliaDiffEq/DiffEqFlux.jl)
 
 > Neural differential equation solvers with O(1) backprop, GPUs, and stiff+non-stiff DE solvers. Supports stiff and non-stiff neural ordinary differential equations (neural ODEs), neural stochastic differential equations (neural SDEs), neural delay differential equations (neural DDEs), neural partial differential equations (neural PDEs), and neural jump stochastic differential equations (neural jump diffusions). All of these can be solved with high order methods with adaptive time-stepping and automatic stiffness detection to switch between methods. 
-  
+
 * **NeuralNetDiffEq**: Implementations of ODE, SDE, and PDE solvers via deep neural networks: [repo](https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl)
 
 ## Websites and Blogs
