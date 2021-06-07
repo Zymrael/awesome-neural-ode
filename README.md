@@ -193,6 +193,12 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with the reverse dynamic method (known in the literature as “adjoint method”) to train neural ODEs on classification, density estimation, and inference approximation tasks.
 
+* Opening the Blackbox: Accelerating Neural Differential Equations by Regularizing Internal Solver Heuristics: [ICML21](https://arxiv.org/abs/2105.03918)
+
+![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
+
+> Can we force the NDE to learn the version with the least steps while not increasing the training cost? Current strategies to overcome slow prediction require high order automatic differentiation, leading to significantly higher training time. We describe a novel regularization method that uses the internal cost heuristics of adaptive differential equation solvers combined with discrete adjoint sensitivities
+
 #### Control with Neural ODEs
 
 * Model-based Reinforcement Learning for Semi-Markov Decision Processes with Neural ODEs: [NeurIPS20](https://arxiv.org/pdf/2006.16210.pdf)
@@ -208,6 +214,8 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 * Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise: [arXiv19](https://arxiv.org/abs/1906.02355)
 
 * Neural Jump Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1905.10403)
+
+![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 * Towards Robust and Stable Deep Learning Algorithms for Forward Backward Stochastic Differential Equations: [arXiv19](https://arxiv.org/abs/1910.11623)
 
@@ -225,9 +233,13 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
 
-![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz)
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
+> We demonstrate how controlled differential equations may extend the Neural ODE model, which we refer to as the neural controlled differential equation (Neural CDE) model. Just as Neural ODEs are the continuous analogue of a ResNet, the Neural CDE is the continuous analogue of an RNN.
 
 * Neural CDEs for Long Time Series via the Log-ODE Method: [arXiv20](https://arxiv.org/abs/2009.08295)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
 ### Normalizing Flows
 
