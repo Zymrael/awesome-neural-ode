@@ -25,7 +25,9 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 		* [Speeding up continuous models](#speeding-up-continuous-models)
 		
 		* [Control with Neural ODEs](#control-with-neural-odes)
-		
+	
+	* [Neural GDEs](#neural-gdes)
+	
 	* [Neural SDEs](#neural-sdes)
 	
 	* [Neural CDEs](#neural-cdes)
@@ -131,12 +133,6 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
 
-* Graph Neural Ordinary Differential Equations: [arXiv19](https://arxiv.org/abs/1911.07532)
-
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
-
-> We introduce the framework of continuous–depth graph neural networks (GNNs). Neural graph ordinary differential equations (Neural GDEs) are formalized as the counterpart to GNNs where the input–output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. We further introduce general Hybrid Neural GDE models as a hybrid dynamical systems. 
-
 * Latent ODEs for Irregularly-Sampled Time Series: [NeurIPS19](https://arxiv.org/abs/1907.03907)
 
 ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
@@ -212,6 +208,24 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 * Optimal Energy Shaping via Neural Approximators: [arXiv20](https://arxiv.org/abs/2101.05537)
 
 > We introduce optimal energy shaping as an enhancement of classical passivity-based control methods. A promising feature of passivity theory, alongside stability, has traditionally been claimed to be intuitive performance tuning along the execution of a given task. However, a systematic approach to adjust performance within a passive control framework has yet to be developed, as each method relies on few and problem-specific practical insights. Here, we cast the classic energy-shaping control design process in an optimal control framework; once a task-dependent performance metric is defined, an optimal solution is systematically obtained through an iterative procedure relying on neural networks and gradient-based optimization.
+
+### Neural GDEs
+
+* Graph Neural Ordinary Differential Equations (spotlight): [AAAI DLGMA20](https://arxiv.org/abs/1911.07532)
+
+![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
+> We introduce the framework of continuous–depth graph neural networks (GNNs). Neural graph ordinary differential equations (Neural GDEs) are formalized as the counterpart to GNNs where the input–output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. We further introduce general Hybrid Neural GDE models as a hybrid dynamical systems. 
+
+* GContinuous–Depth Neural Models for Dynamic Graph Prediction: [arXiv21](https://arxiv.org/pdf/2106.11581.pdf), extended version of "Graph Neural Ordinary Differential Equations"
+
+![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
+> Additional Neural GDE variants are developed to tackle the spatio–temporal setting of dynamic graphs. The evaluation protocol for Neural GDEs spans several application domains, including traffic forecasting and prediction in biological networks.
+
+* GRAND: Graph Neural Diffusion:  [arXiv21](https://arxiv.org/abs/2106.10934)
+
+> We present Graph Neural Diffusion (GRAND) that approaches deep learning on graphs as a continuous diffusion process and treats Graph Neural Networks (GNNs) as discretisations of an underlying PDE
 
 ### Neural SDEs
 
