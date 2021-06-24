@@ -267,17 +267,19 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics [arXiv20](https://arxiv.org/pdf/2002.04461.pdf)
 
-* Score-Based Generative Modeling through Stochastic Differential Equations (best paper award): [ICLR21](https://openreview.net/pdf?id=PxTIG12RRHS)
-
-> Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. 
-
-#### Score-Matching SDEs
-
 * Convex Potential Flows: Universal Probability Distributions with Optimal Transport and Convex Optimization: [arXiv20](https://arxiv.org/pdf/2012.05942.pdf)
 
 ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > CP-Flows are the gradient map of a strongly convex neural potential function. The convexity implies invertibility and allows us to resort to convex optimization to solve the convex conjugate for efficient inversion.
+
+#### Score-Matching SDEs
+
+* Score-Based Generative Modeling through Stochastic Differential Equations (best paper award): [ICLR21](https://openreview.net/pdf?id=PxTIG12RRHS)
+
+![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
+
+> Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. 
 
 ### Applications 
 
