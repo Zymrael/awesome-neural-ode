@@ -30,7 +30,11 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 	
 	* [Neural CDEs](#neural-cdes)
 	
-	* [Normalizing Flows](#normalizing-flows)
+	* [Generative Models](#generative-models)
+	
+		* [Normalizing Flows](#normalizing-flows)
+		
+		* [Score-Matching SDEs](#score-matching-sdes) 	
 	
 	* [Applications](#applications)
 	
@@ -241,7 +245,9 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
-### Normalizing Flows
+### Generative Models
+
+#### Normalizing Flows
 
 * Monge-Ampère Flow for Generative Modeling: [arXiv18](https://arxiv.org/pdf/1809.10188.pdf)
 
@@ -260,6 +266,12 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 > We introduce manifold-learning flows (M-flows), a new class of generative models that simultaneously learn the data manifold as well as a tractable probability density on that manifold. We argue why such models should not be trained by maximum likelihood alone and present a new training algorithm that separates manifold and density updates.
 
 * TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics [arXiv20](https://arxiv.org/pdf/2002.04461.pdf)
+
+* Score-Based Generative Modeling through Stochastic Differential Equations (best paper award): [ICLR21](https://openreview.net/pdf?id=PxTIG12RRHS)
+
+> Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. 
+
+#### Score-Matching SDEs
 
 * Convex Potential Flows: Universal Probability Distributions with Optimal Transport and Convex Optimization: [arXiv20](https://arxiv.org/pdf/2012.05942.pdf)
 
