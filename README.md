@@ -217,7 +217,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We introduce the framework of continuous–depth graph neural networks (GNNs). Neural graph ordinary differential equations (Neural GDEs) are formalized as the counterpart to GNNs where the input–output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. We further introduce general Hybrid Neural GDE models as a hybrid dynamical systems. 
 
-* GContinuous–Depth Neural Models for Dynamic Graph Prediction: [arXiv21](https://arxiv.org/pdf/2106.11581.pdf), extended version of "Graph Neural Ordinary Differential Equations"
+* Continuous–Depth Neural Models for Dynamic Graph Prediction: [arXiv21](https://arxiv.org/pdf/2106.11581.pdf), extended version of "Graph Neural Ordinary Differential Equations"
 
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
