@@ -1,6 +1,6 @@
 
 # awesome-neural-ode
-A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control and scientific machine learning.
+A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control, numerical methods and scientific machine learning.
 
 **NOTE:** Feel free to suggest additions via `Issues` or `Pull Requests`.
 
