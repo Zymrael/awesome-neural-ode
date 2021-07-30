@@ -259,6 +259,13 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 ![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
 
+* Neural Controlled Differential Equations for Online Prediction Tasks: [arXiv21](https://arxiv.org/abs/2106.11028)
+
+![T](https://img.shields.io/badge/theory-black.svg?logo=MusicBrainz) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
+> We identify several theoretical conditions that interpolation schemes for Neural CDEs should satisfy, such as boundedness and uniqueness. Second, we use these to motivate the introduction of new schemes that address these conditions, offering in particular measurability (for online prediction), and smoothness (for speed).
+
+
 ### Generative Models
 
 #### Normalizing Flows
