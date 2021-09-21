@@ -127,6 +127,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
+* Differentiable Multiple Shooting Layers: [arXiv21](https://arxiv.org/abs/2106.03885)
+
+> We detail a novel class of implicit neural models. Leveraging time-parallel methods for differential equations, Multiple Shooting Layers (MSLs) seek solutions of initial value problems via parallelizable root-finding algorithms. MSLs broadly serve as drop-in replacements for neural ordinary differential equations (Neural ODEs) with improved efficiency in number of function evaluations (NFEs) and wall-clock inference time.
+
 * Augmented Neural ODEs: [NeurIPS19](https://arxiv.org/abs/1904.01681) 
 
 ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
