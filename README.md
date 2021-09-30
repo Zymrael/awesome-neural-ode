@@ -181,7 +181,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 ![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
 
-* Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.096018) 
+* Hypersolvers: Toward Fast Continuous-Depth Models: [NeurIPS20](https://arxiv.org/abs/2007.09601) 
 
 ![NM](https://img.shields.io/badge/numerics-green.svg?logo=CodeFactor)
 
