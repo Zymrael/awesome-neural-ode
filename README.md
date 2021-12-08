@@ -127,7 +127,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > Continuous deep learning architectures have recently re-emerged as *Neural Ordinary Differential Equations* (Neural ODEs). This infinite--depth approach theoretically bridges the gap between deep learning and dynamical systems, offering a novel perspective. However, deciphering the inner working of these models is still an open challenge, as most applications apply them as generic *black--box* modules. In this work we "open the box", further developing the continuous-depth formulation with the aim of clarifying the influence of several design choices on the underlying dynamics. 
 
-* Differentiable Multiple Shooting Layers: [arXiv21](https://arxiv.org/abs/2106.03885)
+* Differentiable Multiple Shooting Layers: [NeurIPS21](https://arxiv.org/abs/2106.03885)
 
 > We detail a novel class of implicit neural models. Leveraging time-parallel methods for differential equations, Multiple Shooting Layers (MSLs) seek solutions of initial value problems via parallelizable root-finding algorithms. MSLs broadly serve as drop-in replacements for neural ordinary differential equations (Neural ODEs) with improved efficiency in number of function evaluations (NFEs) and wall-clock inference time.
 
@@ -154,6 +154,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 * On Second Order Behaviour in Augmented Neural ODEs [NeurIPS20](https://arxiv.org/abs/2006.07220)
 
 ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
+
+* Neural Hybrid Automata: Learning Dynamics with Multiple Modes and Stochastic Transitions: [NeurIPS21](https://arxiv.org/abs/2106.04165)
+
+> Effective control and prediction of dynamical systems often require appropriate handling of continuous-time and discrete, event-triggered processes. Stochastic hybrid systems (SHSs), common across engineering domains, provide a formalism for dynamical systems subject to discrete, possibly stochastic, state jumps and multi-modal continuous-time flows. Despite the versatility and importance of SHSs across applications, a general procedure for the explicit learning of both discrete events and multi-mode continuous dynamics remains an open problem. This work introduces Neural Hybrid Automata (NHAs), a recipe for learning SHS dynamics without a priori knowledge on the number of modes and inter-modal transition dynamics. NHAs provide a systematic inference method based on normalizing flows, neural differential equations and self-supervision.
 
 #### Training of Neural ODEs
 
@@ -250,6 +254,11 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise.
+
+* Efficient and Accurate Gradients for Neural SDEs: [NeurIPS21](https://arxiv.org/abs/2105.13493)
+
+> we introduce the reversible Heun method. This is a new SDE solver that is algebraically reversible: eliminating numerical gradient errors, and the first such solver of which we are aware. Moreover it requires half as many function evaluations as comparable solvers, giving up to a 1.98× speedup. Second, we introduce the Brownian Interval: a new, fast, memory efficient, and exact way of sampling \textit{and reconstructing} Brownian motion.
+
 
 ### Neural CDEs
 
