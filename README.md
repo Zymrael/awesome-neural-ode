@@ -327,6 +327,15 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 * PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
 
+> Neural Operator: Learning Maps Between Function Spaces: [arXv21](https://arxiv.org/abs/2108.08481)
+
+> We propose a generalization of neural networks to learn operators that maps between infinite dimensional function spaces. We formulate the approximation of operators by composition of a class of linear integral operators and nonlinear activation functions, so that the composed operator can approximate complex nonlinear operators. We prove a universal approximation theorem for our construction. Furthermore, we introduce four classes of operator parameterizations: graph-based operators, low-rank operators, multipole graph-based operators, and Fourier operators and describe efficient algorithms for computing with each one.
+
+* Fourier Neural Operator for Parametric Partial Differential Equations: [ICLR 2021](https://arxiv.org/abs/2010.08895)
+
+> We formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture.
+
+
 ### Model Discovery
 
 * Universal Differential Equations for Scientific Machine Learning: [arXiv20](https://arxiv.org/abs/2001.04385)
