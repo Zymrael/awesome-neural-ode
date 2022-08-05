@@ -18,6 +18,8 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 
 	* [General Architectures](#general-architectures)
 	
+	* [Neural Operators](#neural-operators)
+	
 	* [Neural ODEs](#neural-odes)
 	
 		* [Training of Neural ODEs](#training-of-neural-odes)
@@ -43,8 +45,6 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 * **Deep Learning Methods for Differential Equations (Scientific ML)**
 
 	* [Solving Differential Equations](#solving-differential-equations)
-	
-	* [Learning PDEs](#learning-pdes)
 	
 	* [Model Discovery](#model-discovery)
 	
@@ -112,6 +112,24 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
 
 > Reasoning about the physical world requires models that are endowed with the right inductive biases to learn the underlying dynamics. Recent works improve generalization for predicting trajectories by learning the Hamiltonian or Lagrangian of a system rather than the differential equations directly. While these methods encode the constraints of the systems using generalized coordinates, we show that embedding the system into Cartesian coordinates and enforcing the constraints explicitly with Lagrange multipliers dramatically simplifies the learning problem.
+
+### Neural Operators 
+
+* Neural Operator: Learning Maps Between Function Spaces: [arXv21](https://arxiv.org/abs/2108.08481)
+
+> We propose a generalization of neural networks to learn operators that maps between infinite dimensional function spaces. We formulate the approximation of operators by composition of a class of linear integral operators and nonlinear activation functions, so that the composed operator can approximate complex nonlinear operators. We prove a universal approximation theorem for our construction. Furthermore, we introduce four classes of operator parameterizations: graph-based operators, low-rank operators, multipole graph-based operators, and Fourier operators and describe efficient algorithms for computing with each one.
+
+* Fourier Neural Operator for Parametric Partial Differential Equations: [ICLR 2021](https://arxiv.org/abs/2010.08895)
+
+> We formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture.
+
+* FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators
+
+> FourCastNet, short for Fourier Forecasting Neural Network, is a global data-driven weather forecasting model that provides accurate short to medium-range global predictions at 0.25∘ resolution. FourCastNet accurately forecasts high-resolution, fast-timescale variables such as the surface wind speed, precipitation, and atmospheric water vapor.
+
+* Transform Once: Efficient Operator Learning in Frequency Domain
+
+> This work introduces a blueprint for frequency domain learning through a single transform: transform once (T1). To enable efficient, direct learning in the frequency domain we develop a variance preserving weight initialization scheme and address the open problem of choosing a transform. Our results noticeably streamline the design process of frequency-domain models, pruning redundant transforms, and leading to speedups of 3x to 10x that increase with data resolution and model size. We perform extensive experiments on learning to solve partial differential equations, including incompressible Navier-Stokes, turbulent flows around airfoils, and high-resolution video of smoke dynamics. T1 models improve on the test performance of SOTA FDMs while requiring significantly less computation, with over 20% reduction in predictive error across tasks.
 
 ### Neural ODEs
 
@@ -278,7 +296,6 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We identify several theoretical conditions that interpolation schemes for Neural CDEs should satisfy, such as boundedness and uniqueness. Second, we use these to motivate the introduction of new schemes that address these conditions, offering in particular measurability (for online prediction), and smoothness (for speed).
 
-
 ### Generative Models
 
 #### Normalizing Flows
@@ -307,13 +324,17 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > CP-Flows are the gradient map of a strongly convex neural potential function. The convexity implies invertibility and allows us to resort to convex optimization to solve the convex conjugate for efficient inversion.
 
-#### Score-Matching SDEs
+#### Diffusion Models
 
 * Score-Based Generative Modeling through Stochastic Differential Equations (best paper award): [ICLR21](https://openreview.net/pdf?id=PxTIG12RRHS)
 
 ![IC](https://img.shields.io/badge/images-blue.svg?logo=Google%20Classroom)
 
 > Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. 
+
+* Denoising Diffusion Implicit Models
+
+> Denoising diffusion probabilistic models (DDPMs) have achieved high quality image generation without adversarial training, yet they require simulating a Markov chain for many steps to produce a sample. To accelerate sampling, we present denoising diffusion implicit models (DDIMs), a more efficient class of iterative implicit probabilistic models with the same training procedure as DDPMs. In DDPMs, the generative process is defined as the reverse of a Markovian diffusion process.
 
 ### Applications 
 
@@ -323,18 +344,7 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 ### Solving Differential Equations
 
-### Learning PDEs
-
 * PDE-Net: Learning PDEs From Data: [ICML18](https://arxiv.org/abs/1710.09668)
-
-* Neural Operator: Learning Maps Between Function Spaces: [arXv21](https://arxiv.org/abs/2108.08481)
-
-> We propose a generalization of neural networks to learn operators that maps between infinite dimensional function spaces. We formulate the approximation of operators by composition of a class of linear integral operators and nonlinear activation functions, so that the composed operator can approximate complex nonlinear operators. We prove a universal approximation theorem for our construction. Furthermore, we introduce four classes of operator parameterizations: graph-based operators, low-rank operators, multipole graph-based operators, and Fourier operators and describe efficient algorithms for computing with each one.
-
-* Fourier Neural Operator for Parametric Partial Differential Equations: [ICLR 2021](https://arxiv.org/abs/2010.08895)
-
-> We formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture.
-
 
 ### Model Discovery
 
