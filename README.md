@@ -1,5 +1,7 @@
-
-# Awesome Neural ODE
+<div align="center">
+    <h1>Awesome Neural ODE</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+</div>
 
 A collection of resources regarding the interplay between differential equations, dynamical systems, deep learning, control, numerical methods and scientific machine learning.
 
