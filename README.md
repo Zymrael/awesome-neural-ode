@@ -238,6 +238,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We introduce optimal energy shaping as an enhancement of classical passivity-based control methods. A promising feature of passivity theory, alongside stability, has traditionally been claimed to be intuitive performance tuning along the execution of a given task. However, a systematic approach to adjust performance within a passive control framework has yet to be developed, as each method relies on few and problem-specific practical insights. Here, we cast the classic energy-shaping control design process in an optimal control framework; once a task-dependent performance metric is defined, an optimal solution is systematically obtained through an iterative procedure relying on neural networks and gradient-based optimization.
 
+* Neural ODEs as Feedback Policies for Nonlinear Optimal Control: [IFAC World Congress 2023](https://doi.org/10.1016/j.ifacol.2023.10.1248) [arXiv](https://arxiv.org/pdf/2006.16210.pdf)
+
+> Neural ordinary differential equations (Neural ODEs) define continuous time dynamical systems with neural networks. The interest in their application for modelling has sparked recently, spanning hybrid system identification problems and time series analysis. In this work we propose the use of a neural control policy capable of satisfying state and control constraints to solve nonlinear optimal control problems. The control policy optimization is posed as a Neural ODE problem to efficiently exploit the availability of a dynamical system model. We showcase the efficacy of this type of deterministic neural policies in the controlled Van der Pol system. This approach represents a practical approximation to the intractable closed-loop solution of nonlinear control problems.
+
 ### Neural GDEs
 
 * Graph Neural Ordinary Differential Equations (spotlight): [AAAI DLGMA20](https://arxiv.org/abs/1911.07532)
